@@ -1,44 +1,44 @@
-# 🏦 C++ Banking Management System
+🏦 Bank Management System
+Project by codewithaimii
+📅 Developed in 2021 
+💻 Language Used: C++
+🧰 Concepts: Object-Oriented Programming (OOP)
 
-This project is a fully functional Banking Management System written in C++. It uses advanced OOP principles including **inheritance**, **polymorphism**, **operator overloading**, **templates**, the **Singleton pattern**, and the **Builder design pattern** to simulate real-world banking operations for savings and current accounts.
+📌 Project Overview
+The Bank Management System is a console-based application developed in C++ as a 2nd-semester project. It simulates core banking functions such as account creation, deposit, withdrawal, balance inquiry, and more — all structured using Object-Oriented Programming concepts.
 
----
+This project focuses on practicing class design, constructors, file handling, and basic encapsulation to manage customer account data securely and efficiently.
 
-## 🚀 Features
+💡 Features
+🏛️ Create new bank accounts
 
-- 🧑 Client profile using the **Singleton pattern**
-- 💳 Card generation using the **Builder design pattern**
-- 🏦 Two account types:
-  - **Savings Account** (with interest rate and balance history)
-  - **Current Account** (with transaction limits and fees)
-- 💰 Deposit and withdrawal handling
-- 📈 Account transaction history
-- 📋 Menu-driven user interface in the console
-- 🧠 Robust memory management and exception handling
+💸 Deposit and withdraw money
 
----
+📈 View balance and account details
 
-## 🛠️ Technologies Used
+🗂️ Update or delete customer accounts
 
-- **C++17**
-- Object-Oriented Programming (OOP)
-- STL: `vector`, `unordered_map`
+💾 File handling for data storage
 
----
+🔐 Secure and menu-driven interface
 
-## 🧩 Design Patterns Implemented
+🧑‍💻 Key Concepts Used
+Classes and Objects
 
-- **Singleton**: For managing a unique `ClientData` instance
-- **Builder**: For modular card creation (`CardPartsBuilder`)
-- **Templates**: For generic account management
+Constructors and Destructors
 
----
+Encapsulation and Data Hiding
 
-## 🖥️ How to Run
+File Handling (fstream)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/codewithaimii/Bank-management-System.git
-   cd Banking-System
-   //Compile the program:
-g++ -std=c++17 -o bank managment system.cpp
+Modular programming through functions
+
+Switch-case menu system
+
+🚀 How to Run
+Clone the repository:
+git clone https://github.com/codewithaimii/bank-management-system.git
+cd bank-management-system
+//Compile the code:
+g++ bank.cpp -o bank
+Run the application:
